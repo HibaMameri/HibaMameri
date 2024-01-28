@@ -60,6 +60,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    max-height: 350px;
 }
 
 .image-container img {
@@ -81,7 +82,7 @@ body {
     background-color: #50B2C0;
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
-    position: relative; /* Changed to relative for better layout handling */
+    position: relative;
 }
 
 
